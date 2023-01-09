@@ -285,15 +285,6 @@ int test_add(double a, double b) {
 
 int main(void) {
   srand(time(NULL));
-  /* double d; */
-  /* scanf("%lf", &d); */
-  /* double2digits(&A, d); */
-
-  /* test_add(0.9999, 1.0001); */
-
-  /* test_add(3.14, 127.3); */
-  test_add(0.999, 0.001);
-  test_add(9.999, 0.001);
 
   if (0) {
 #define TEST_NUM 100
