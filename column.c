@@ -284,9 +284,9 @@ int test_add(double a, double b) {
 }
 
 int main(void) {
-  srand(time(NULL));
-
   if (0) {
+    srand(time(NULL));
+
 #define TEST_NUM 100
 #define TEST_MAG 100000
     int i;
